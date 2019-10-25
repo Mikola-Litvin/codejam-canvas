@@ -1,0 +1,154 @@
+/* font-family: "Roboto Regular"; */
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "Roboto Medium"; */
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../assets/fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1rem;
+	font-family: inherit;
+}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul,
+body,
+header {
+  background-color: #ffffff;
+}
+
+h1 {
+	display: inline-block;
+	
+	font-family: "Roboto Medium", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  lef: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  padding: 0 20px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+header img {
+  margin-right: 24px;
+}
+
+main {
+	display: flex;
+	height: 100vh;
+}
+
+main > div:first-child {
+	display: flex;
+	flex-direction: column;
+	padding: 127px 29px 0;
+}
+
+main > div:last-child {
+	position: relative;
+
+	flex-grow: 1;
+}
+
+ul {
+	width: 228px;
+	height: 246px;
+	padding: 20px 16px;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+ul:first-child {
+	margin-bottom: 92px;
+}
+
+main li {
+	height: 48px;
+
+	font-family: "Roboto Medium", sans-serif;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.541327);
+}
+
+main ul img {
+	vertical-align: middle;
+}
+
+ul:first-child img {
+	margin-right: 33px;
+}
+
+ul:last-child img {
+	margin-right: 18px;
+}
+
+canvas {
+	position: absolute;
+	top: 121px;
+	right: 115px;
+
+	width: 512px;
+	height: 512px;
+}
