@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Codejam Canvas</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="assets/images/menu.svg">
+        <h1>CodeJam - Pallete</h1>
+      </div>
+      <div>
+        <img src="assets/images/menu-disks.svg">
+      </div>
+    </header>
+    <main>
+      <div>
+        <ul>
+          <li><img src="assets/images/paint-bucket.svg">Paint bucket</li>
+          <li><img src="assets/images/choose-color.svg">Choose color</li>
+          <li><img src="assets/images/move.svg">Move</li>
+          <li><img src="assets/images/transform.svg">Transform</li>
+        </ul>
+        <ul>
+          <li><img src="assets/images/current-color.svg">Current color</li>
+          <li><img src="assets/images/prev-color.svg">Prev color</li>
+          <li><img src="assets/images/red.svg">red</li>
+          <li><img src="assets/images/blue.svg">blue</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="switcher">
+          <li data-size="4">4 x 4</li>
+          <li data-size="32">32 x 32</li>
+          <li data-size="image">image</li>
+          <li data-size="clear">clear</li>
+        </ul>
+        <canvas></canvas>
+      </div>
+    </main>
+    <script src="js/lib.js"></script>
+  </body>
+</html>
