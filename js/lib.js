@@ -6251,7 +6251,7 @@ function draw(pixels) {
   }
 }
 
-function drawImage() {
+/*function drawImage() {
 
   let picture = new Image();
   picture.src = 'assets/images/image.png';
@@ -6263,9 +6263,9 @@ function drawImage() {
     let x = y = 0;
     ctx.drawImage(picture, x, y, can.width, can.height);
   }
-}
+}*/
 
-/*function drawImage() {
+function drawImage() {
 
   let picture = new Image();
   picture.src = 'assets/images/image.png';
@@ -6291,7 +6291,7 @@ function drawImage() {
 
     draw(image);
   }
-}*/
+}
 
 document.querySelector(".switcher").addEventListener('click', function(e) {
 
