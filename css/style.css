@@ -144,11 +144,28 @@ ul:last-child img {
 	margin-right: 18px;
 }
 
+.switcher {
+	position: absolute;
+	top: 120px;
+	right: 100px;
+}
+
+.switcher li {
+	cursor: pointer;
+}
+
+.switcher li:hover {
+	color: red;
+}
+
 canvas {
 	position: absolute;
-	top: 121px;
-	right: 115px;
+	top: 45%;
+	left: 40%;
 
 	width: 512px;
 	height: 512px;
+
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	transform: translateX(-50%) translateY(-50%);
 }
